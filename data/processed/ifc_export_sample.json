@@ -1,0 +1,1545 @@
+{
+  "type": "ifcJSON",
+  "version": "0.0.1",
+  "schemaIdentifier": "IFC4",
+  "description": "AE source localisation results \u2014 Wave-Equation Constrained PINN for Bolted Joint SHM (reproducibility export)",
+  "source": "/home/mateo/Projects/pinn-bolted-reproducibility/data/processed/pinn_localization_results.csv",
+  "data": [
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "9f306fbe-5b9e-4639-b0f0-715e0a20d1dd",
+      "name": "AE_Source_0000",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.120217,
+        "ae_source_y_m": 0.149566,
+        "localization_error_mm": 18.8282
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.130278,
+        "ground_truth_y_m": 0.16548
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "15ec94c0-eadd-4eb9-bd4f-6f61c2e993af",
+      "name": "AE_Source_0001",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.194048,
+        "ae_source_y_m": 0.12997,
+        "localization_error_mm": 25.0593
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.168988,
+        "ground_truth_y_m": 0.129965
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "716e999b-dc4d-4e19-9e6d-e9863c593ca5",
+      "name": "AE_Source_0002",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.186193,
+        "ae_source_y_m": 0.190093,
+        "localization_error_mm": 11.9565
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.1978,
+        "ground_truth_y_m": 0.187224
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "bf81a619-0c81-4079-90d3-9aac3e0735d6",
+      "name": "AE_Source_0003",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.133679,
+        "ae_source_y_m": 0.158603,
+        "localization_error_mm": 4.0208
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.136414,
+        "ground_truth_y_m": 0.16155
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "8fbab923-fdb2-4043-86fc-daa8f8ca55b9",
+      "name": "AE_Source_0004",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.125645,
+        "ae_source_y_m": 0.062979,
+        "localization_error_mm": 32.3826
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.116645,
+        "ground_truth_y_m": 0.031872
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "a490d8e2-aae3-4d5a-86e8-2abcfc4e0a3d",
+      "name": "AE_Source_0005",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.169185,
+        "ae_source_y_m": 0.184334,
+        "localization_error_mm": 16.2615
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.154272,
+        "ground_truth_y_m": 0.17785
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "09294fbf-9e0f-48cc-92de-52c03dedbb89",
+      "name": "AE_Source_0006",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.159002,
+        "ae_source_y_m": 0.169938,
+        "localization_error_mm": 19.7145
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.155979,
+        "ground_truth_y_m": 0.150457
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "82c9922c-2f53-47e3-a3b6-a22e479072c2",
+      "name": "AE_Source_0007",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.142869,
+        "ae_source_y_m": 0.113171,
+        "localization_error_mm": 21.8432
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.161684,
+        "ground_truth_y_m": 0.124267
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "fc9aaf93-e528-4713-9484-8bc521243758",
+      "name": "AE_Source_0008",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.177626,
+        "ae_source_y_m": 0.184952,
+        "localization_error_mm": 32.5821
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.146446,
+        "ground_truth_y_m": 0.175497
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "5eb58482-4879-4846-b447-f70638186545",
+      "name": "AE_Source_0009",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.114735,
+        "ae_source_y_m": 0.191839,
+        "localization_error_mm": 28.4545
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.136367,
+        "ground_truth_y_m": 0.173354
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ff0f346b-1411-4c0e-9d38-d23cd022b3ad",
+      "name": "AE_Source_0010",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.136067,
+        "ae_source_y_m": 0.158881,
+        "localization_error_mm": 9.858
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.136071,
+        "ground_truth_y_m": 0.149023
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c8979342-0fb0-49d6-9484-3b0cdc27fdd3",
+      "name": "AE_Source_0011",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.176517,
+        "ae_source_y_m": 0.145294,
+        "localization_error_mm": 15.8215
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.163157,
+        "ground_truth_y_m": 0.136818
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "b6a2e7c1-997b-419d-bf65-7e6c63fb1044",
+      "name": "AE_Source_0012",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.188023,
+        "ae_source_y_m": 0.154473,
+        "localization_error_mm": 14.3521
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.174942,
+        "ground_truth_y_m": 0.148568
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c9049e94-7478-4874-bd09-80b4b94dd585",
+      "name": "AE_Source_0013",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.105419,
+        "ae_source_y_m": 0.163111,
+        "localization_error_mm": 22.6331
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.127728,
+        "ground_truth_y_m": 0.166931
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "3097543f-4117-4bc6-a743-a31dd89d115b",
+      "name": "AE_Source_0014",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.150451,
+        "ae_source_y_m": 0.159581,
+        "localization_error_mm": 9.7924
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.144792,
+        "ground_truth_y_m": 0.151589
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ce7b4d71-6da0-4b16-b722-7b0a73ead133",
+      "name": "AE_Source_0015",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.146642,
+        "ae_source_y_m": 0.141362,
+        "localization_error_mm": 11.2018
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.157819,
+        "ground_truth_y_m": 0.140617
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "030a344e-a73a-4a97-8d62-5d624a8fcfb2",
+      "name": "AE_Source_0016",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.203954,
+        "ae_source_y_m": 0.13006,
+        "localization_error_mm": 30.7528
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.173234,
+        "ground_truth_y_m": 0.131483
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "cca68250-d130-4b55-8f95-45342459cdf9",
+      "name": "AE_Source_0017",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.120128,
+        "ae_source_y_m": 0.157117,
+        "localization_error_mm": 20.4445
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.136762,
+        "ground_truth_y_m": 0.14523
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "0ab690cd-6e05-4155-8b77-b3623b951401",
+      "name": "AE_Source_0018",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.171584,
+        "ae_source_y_m": 0.181541,
+        "localization_error_mm": 9.802
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.164213,
+        "ground_truth_y_m": 0.175079
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "67c56cf8-a4b7-49f0-8b67-afd4f64c8c39",
+      "name": "AE_Source_0019",
+      "description": "scenario=full_loose, torque_loss=100.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.170702,
+        "ae_source_y_m": 0.140623,
+        "localization_error_mm": 9.1119
+      },
+      "damage_state": {
+        "scenario": "full_loose",
+        "torque_loss_pct": 100.0,
+        "ground_truth_x_m": 0.164613,
+        "ground_truth_y_m": 0.147402
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "409258f5-fd55-4f02-9e70-41d13945c185",
+      "name": "AE_Source_0020",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.240968,
+        "ae_source_y_m": 0.17283,
+        "localization_error_mm": 23.2461
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.263835,
+        "ground_truth_y_m": 0.168649
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "23881bdc-6615-47c4-a9ee-6a4fee76685b",
+      "name": "AE_Source_0021",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.063231,
+        "ae_source_y_m": 0.159196,
+        "localization_error_mm": 8.3268
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.056465,
+        "ground_truth_y_m": 0.164049
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "2a64b14a-cf02-431e-bbac-66992d13f323",
+      "name": "AE_Source_0022",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.067948,
+        "ae_source_y_m": 0.127017,
+        "localization_error_mm": 7.8843
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.075792,
+        "ground_truth_y_m": 0.126217
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "b0dad2a3-1271-437f-983d-acdc128978f4",
+      "name": "AE_Source_0023",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.169365,
+        "ae_source_y_m": 0.06192,
+        "localization_error_mm": 25.8506
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.164192,
+        "ground_truth_y_m": 0.036592
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "7bdddd83-ba5c-4d90-8d6d-730e560801a1",
+      "name": "AE_Source_0024",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.155268,
+        "ae_source_y_m": 0.149689,
+        "localization_error_mm": 8.987
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.146531,
+        "ground_truth_y_m": 0.147584
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "fd99d36e-8d1c-4a1b-be0a-3c494463fcaa",
+      "name": "AE_Source_0025",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.069602,
+        "ae_source_y_m": 0.223763,
+        "localization_error_mm": 21.5566
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.051917,
+        "ground_truth_y_m": 0.236089
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "fac6c880-11a4-4884-bd38-91707c37964b",
+      "name": "AE_Source_0026",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.069529,
+        "ae_source_y_m": 0.099419,
+        "localization_error_mm": 1.9963
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.071073,
+        "ground_truth_y_m": 0.100684
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "8f08d04e-a9ae-4b8c-8830-987c52c67b1e",
+      "name": "AE_Source_0027",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.135908,
+        "ae_source_y_m": 0.075922,
+        "localization_error_mm": 4.2035
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.138502,
+        "ground_truth_y_m": 0.072614
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "6f3c3e36-9a44-4fd7-ba2e-f8c7df9abdaa",
+      "name": "AE_Source_0028",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.169428,
+        "ae_source_y_m": 0.092236,
+        "localization_error_mm": 7.8989
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.165394,
+        "ground_truth_y_m": 0.099027
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "a5b7155c-d894-41ea-9927-95d6db4f0c65",
+      "name": "AE_Source_0029",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.230926,
+        "ae_source_y_m": 0.19738,
+        "localization_error_mm": 7.7737
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.2246,
+        "ground_truth_y_m": 0.192861
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "b58b088f-8293-4cd0-be65-4b5e111990e9",
+      "name": "AE_Source_0030",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.233126,
+        "ae_source_y_m": 0.190933,
+        "localization_error_mm": 12.4513
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.220723,
+        "ground_truth_y_m": 0.192032
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "3afa57fe-00ba-4b65-b46e-6fa765842845",
+      "name": "AE_Source_0031",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.067722,
+        "ae_source_y_m": 0.078897,
+        "localization_error_mm": 31.262
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.056347,
+        "ground_truth_y_m": 0.049778
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "716ba72c-f08d-47df-898e-f4e040bca98d",
+      "name": "AE_Source_0032",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.204615,
+        "ae_source_y_m": 0.150675,
+        "localization_error_mm": 13.5782
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.193785,
+        "ground_truth_y_m": 0.142485
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "f1a2fb62-b269-4491-9359-79f4fabc3d55",
+      "name": "AE_Source_0033",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.21539,
+        "ae_source_y_m": 0.219581,
+        "localization_error_mm": 12.5203
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.203343,
+        "ground_truth_y_m": 0.22299
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "9cbd62e8-9374-4892-a844-5fb5a161be20",
+      "name": "AE_Source_0034",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.239409,
+        "ae_source_y_m": 0.197779,
+        "localization_error_mm": 17.3251
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.256231,
+        "ground_truth_y_m": 0.201924
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "1036c21e-89bd-469c-a3c7-214ec1f70b04",
+      "name": "AE_Source_0035",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.214707,
+        "ae_source_y_m": 0.183499,
+        "localization_error_mm": 20.4575
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.19456,
+        "ground_truth_y_m": 0.179948
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "1c0b1953-191b-49ce-846e-764bf7dfc1d6",
+      "name": "AE_Source_0036",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.092543,
+        "ae_source_y_m": 0.155181,
+        "localization_error_mm": 13.6663
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.106208,
+        "ground_truth_y_m": 0.155375
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "6124e36e-b60e-4c54-a56f-c42be0cbf5b3",
+      "name": "AE_Source_0037",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.203634,
+        "ae_source_y_m": 0.094817,
+        "localization_error_mm": 8.9072
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.194728,
+        "ground_truth_y_m": 0.094953
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "2b2a13e6-908e-4311-9ce2-cfd63bd9be17",
+      "name": "AE_Source_0038",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.139696,
+        "ae_source_y_m": 0.118931,
+        "localization_error_mm": 4.1116
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.140702,
+        "ground_truth_y_m": 0.122917
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "a7a7be6e-39bf-4a75-a971-7d633af16750",
+      "name": "AE_Source_0039",
+      "description": "scenario=intact, torque_loss=0.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.239546,
+        "ae_source_y_m": 0.149227,
+        "localization_error_mm": 29.9248
+      },
+      "damage_state": {
+        "scenario": "intact",
+        "torque_loss_pct": 0.0,
+        "ground_truth_x_m": 0.269225,
+        "ground_truth_y_m": 0.145399
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "57672880-c01b-4ab8-8df1-d7d44d6db744",
+      "name": "AE_Source_0040",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.158514,
+        "ae_source_y_m": 0.09147,
+        "localization_error_mm": 4.4742
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.158905,
+        "ground_truth_y_m": 0.087013
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "b7514d5d-c304-42e4-a58a-19754a6108a7",
+      "name": "AE_Source_0041",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.192447,
+        "ae_source_y_m": 0.119077,
+        "localization_error_mm": 9.2338
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.183544,
+        "ground_truth_y_m": 0.121528
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "aa770adc-8c00-47a9-9faf-16e97498650d",
+      "name": "AE_Source_0042",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.155838,
+        "ae_source_y_m": 0.19198,
+        "localization_error_mm": 13.78
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.151168,
+        "ground_truth_y_m": 0.179015
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "3f6e659d-417b-4a33-ab68-c2387591ad48",
+      "name": "AE_Source_0043",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.084175,
+        "ae_source_y_m": 0.138182,
+        "localization_error_mm": 18.8424
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.101877,
+        "ground_truth_y_m": 0.144638
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "fcc53c7d-5137-48fd-9fa6-33d8150a8512",
+      "name": "AE_Source_0044",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.133357,
+        "ae_source_y_m": 0.239865,
+        "localization_error_mm": 23.5695
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.135425,
+        "ground_truth_y_m": 0.263344
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c0eb51e6-96da-424c-98b9-58c48ef385b4",
+      "name": "AE_Source_0045",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.159257,
+        "ae_source_y_m": 0.073957,
+        "localization_error_mm": 4.1204
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.163321,
+        "ground_truth_y_m": 0.073275
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "beb6317d-7f9b-4a49-ae9f-ad3b5577b7af",
+      "name": "AE_Source_0046",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.228723,
+        "ae_source_y_m": 0.093276,
+        "localization_error_mm": 34.7423
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.256685,
+        "ground_truth_y_m": 0.072656
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "07d632b6-1448-41c1-b55d-781c3ab302f1",
+      "name": "AE_Source_0047",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.17791,
+        "ae_source_y_m": 0.170332,
+        "localization_error_mm": 6.1767
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.173055,
+        "ground_truth_y_m": 0.166514
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "6b37e03d-4f0b-4ead-ab33-910e9146184b",
+      "name": "AE_Source_0048",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.198526,
+        "ae_source_y_m": 0.10627,
+        "localization_error_mm": 9.8168
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.190736,
+        "ground_truth_y_m": 0.112243
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "cd21554f-cec5-4a6d-9127-4bb5888590cf",
+      "name": "AE_Source_0049",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.169357,
+        "ae_source_y_m": 0.199158,
+        "localization_error_mm": 9.0054
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.160941,
+        "ground_truth_y_m": 0.202362
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ab9b58f3-1c11-4f57-bd25-92795b41295b",
+      "name": "AE_Source_0050",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.164856,
+        "ae_source_y_m": 0.076282,
+        "localization_error_mm": 9.2633
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.157388,
+        "ground_truth_y_m": 0.070801
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "51fc139a-afd8-4c14-9aff-f0168e041c59",
+      "name": "AE_Source_0051",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.059426,
+        "ae_source_y_m": 0.190626,
+        "localization_error_mm": 15.8498
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.043848,
+        "ground_truth_y_m": 0.193547
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "9c809291-fac7-4475-8c0a-6702c43b891b",
+      "name": "AE_Source_0052",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.202707,
+        "ae_source_y_m": 0.211441,
+        "localization_error_mm": 14.5186
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.189011,
+        "ground_truth_y_m": 0.21626
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "f14a117a-adc4-415c-a87c-7a73d442f1b7",
+      "name": "AE_Source_0053",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.150551,
+        "ae_source_y_m": 0.115916,
+        "localization_error_mm": 3.2462
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.151963,
+        "ground_truth_y_m": 0.118839
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c1b88812-a1c9-4790-96fd-4aa4c1e68654",
+      "name": "AE_Source_0054",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.192113,
+        "ae_source_y_m": 0.202757,
+        "localization_error_mm": 13.8469
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.179166,
+        "ground_truth_y_m": 0.197846
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "19cd45a8-0902-436b-83a8-4c8a88a0e21c",
+      "name": "AE_Source_0055",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.220897,
+        "ae_source_y_m": 0.119382,
+        "localization_error_mm": 10.4142
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.212013,
+        "ground_truth_y_m": 0.124816
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "dbb152c7-12f3-45b4-96a7-7a0256f70896",
+      "name": "AE_Source_0056",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.229519,
+        "ae_source_y_m": 0.103979,
+        "localization_error_mm": 12.5183
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.242036,
+        "ground_truth_y_m": 0.103776
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "838b0951-3ad9-466e-97c5-1650f9c28e99",
+      "name": "AE_Source_0057",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.208007,
+        "ae_source_y_m": 0.185073,
+        "localization_error_mm": 6.3278
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.201768,
+        "ground_truth_y_m": 0.18613
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "b8508799-0411-4916-803f-53468320c77a",
+      "name": "AE_Source_0058",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.080105,
+        "ae_source_y_m": 0.187722,
+        "localization_error_mm": 8.044
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.086328,
+        "ground_truth_y_m": 0.182624
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "1bfdd6c2-2c12-45f3-8d57-500bf7a52d85",
+      "name": "AE_Source_0059",
+      "description": "scenario=loose_25, torque_loss=25.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.124891,
+        "ae_source_y_m": 0.067441,
+        "localization_error_mm": 17.5407
+      },
+      "damage_state": {
+        "scenario": "loose_25",
+        "torque_loss_pct": 25.0,
+        "ground_truth_x_m": 0.134413,
+        "ground_truth_y_m": 0.05271
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "8eaefce1-1623-4c30-a009-3281671bb493",
+      "name": "AE_Source_0060",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.192703,
+        "ae_source_y_m": 0.184088,
+        "localization_error_mm": 26.4356
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.166288,
+        "ground_truth_y_m": 0.185118
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c8f52758-5550-40a7-927c-61836eb649dc",
+      "name": "AE_Source_0061",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.171324,
+        "ae_source_y_m": 0.121626,
+        "localization_error_mm": 17.7621
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.153617,
+        "ground_truth_y_m": 0.120233
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "84cc84bf-279a-445c-82c6-8abb4e84efaf",
+      "name": "AE_Source_0062",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.064696,
+        "ae_source_y_m": 0.205862,
+        "localization_error_mm": 43.4081
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.023133,
+        "ground_truth_y_m": 0.218385
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "aa10fbbc-29cf-405f-a3e8-adb22d62156b",
+      "name": "AE_Source_0063",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.181956,
+        "ae_source_y_m": 0.1653,
+        "localization_error_mm": 7.9379
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.174051,
+        "ground_truth_y_m": 0.164575
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "0a581f52-2c8f-4ea1-b38c-9416d20f8110",
+      "name": "AE_Source_0064",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.20504,
+        "ae_source_y_m": 0.151133,
+        "localization_error_mm": 18.8789
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.18948,
+        "ground_truth_y_m": 0.140443
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "392fef4f-9d7c-4055-8792-2f73b20a1c93",
+      "name": "AE_Source_0065",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.233214,
+        "ae_source_y_m": 0.222822,
+        "localization_error_mm": 50.9327
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.272252,
+        "ground_truth_y_m": 0.255535
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "9749e7ca-2720-45be-9b2e-2fe0333feb5f",
+      "name": "AE_Source_0066",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.124398,
+        "ae_source_y_m": 0.127162,
+        "localization_error_mm": 5.556
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.129182,
+        "ground_truth_y_m": 0.129987
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "4d9e501f-a20f-4b12-844a-59be16740f27",
+      "name": "AE_Source_0067",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.14705,
+        "ae_source_y_m": 0.115744,
+        "localization_error_mm": 14.7691
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.138273,
+        "ground_truth_y_m": 0.127622
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "2e244e4d-e03c-4572-92dd-2be869a555fc",
+      "name": "AE_Source_0068",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.056738,
+        "ae_source_y_m": 0.138839,
+        "localization_error_mm": 11.0455
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.046727,
+        "ground_truth_y_m": 0.143506
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "0036fa0e-db4b-4f87-8672-64a9b15bc507",
+      "name": "AE_Source_0069",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.192039,
+        "ae_source_y_m": 0.119109,
+        "localization_error_mm": 16.3357
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.182667,
+        "ground_truth_y_m": 0.132489
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "a4464fdf-eb19-493b-b334-63730f2d26b7",
+      "name": "AE_Source_0070",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.196293,
+        "ae_source_y_m": 0.157701,
+        "localization_error_mm": 20.3676
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.177398,
+        "ground_truth_y_m": 0.150098
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "72f2e961-68fa-4269-be67-fe564b8a0b1d",
+      "name": "AE_Source_0071",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.151101,
+        "ae_source_y_m": 0.126138,
+        "localization_error_mm": 2.5598
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.153616,
+        "ground_truth_y_m": 0.126616
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "735e3b0e-1555-457e-b542-dc8cbfa5c906",
+      "name": "AE_Source_0072",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.12389,
+        "ae_source_y_m": 0.141847,
+        "localization_error_mm": 11.2096
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.130649,
+        "ground_truth_y_m": 0.15079
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "eeb513bc-333e-47c0-b2ad-7be6f42d75a6",
+      "name": "AE_Source_0073",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.163294,
+        "ae_source_y_m": 0.172665,
+        "localization_error_mm": 2.3633
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.163894,
+        "ground_truth_y_m": 0.174951
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "c476615f-b754-4796-98b2-20bc9e6af068",
+      "name": "AE_Source_0074",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.138718,
+        "ae_source_y_m": 0.12734,
+        "localization_error_mm": 8.8715
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.147544,
+        "ground_truth_y_m": 0.126441
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "dedb8a19-5c37-4831-abe3-38a5cc20adeb",
+      "name": "AE_Source_0075",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.124563,
+        "ae_source_y_m": 0.14046,
+        "localization_error_mm": 8.6657
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.128972,
+        "ground_truth_y_m": 0.147921
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ca9c3163-45ef-4e8e-aa5d-c073109d814c",
+      "name": "AE_Source_0076",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.155401,
+        "ae_source_y_m": 0.141464,
+        "localization_error_mm": 1.7573
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.15563,
+        "ground_truth_y_m": 0.139722
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ef912c7e-c769-4c59-a156-ff647ff5e040",
+      "name": "AE_Source_0077",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.101764,
+        "ae_source_y_m": 0.127788,
+        "localization_error_mm": 23.4333
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.123149,
+        "ground_truth_y_m": 0.137368
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "e8527b2c-c49b-4c4d-83b4-0b0eacf0fa29",
+      "name": "AE_Source_0078",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.140435,
+        "ae_source_y_m": 0.169646,
+        "localization_error_mm": 4.6237
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.140806,
+        "ground_truth_y_m": 0.174255
+      }
+    },
+    {
+      "type": "IfcStructuralPointAction",
+      "globalId": "ad46a101-4512-4831-abdd-618d7b3e1388",
+      "name": "AE_Source_0079",
+      "description": "scenario=loose_50, torque_loss=50.0%",
+      "appliedLoad": {
+        "type": "IfcStructuralLoad",
+        "name": "AELoad",
+        "ae_source_x_m": 0.164611,
+        "ae_source_y_m": 0.131612,
+        "localization_error_mm": 4.6852
+      },
+      "damage_state": {
+        "scenario": "loose_50",
+        "torque_loss_pct": 50.0,
+        "ground_truth_x_m": 0.165053,
+        "ground_truth_y_m": 0.126948
+      }
+    }
+  ],
+  "summary": {
+    "total_events": 80,
+    "scenarios": [
+      "full_loose",
+      "intact",
+      "loose_25",
+      "loose_50"
+    ],
+    "mean_localization_error_mm": 14.9216,
+    "mae_by_scenario": {
+      "intact": 14.0964,
+      "loose_25": 12.2666,
+      "loose_50": 15.0799,
+      "full_loose": 18.2437
+    }
+  }
+}
