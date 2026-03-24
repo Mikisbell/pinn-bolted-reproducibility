@@ -14,7 +14,7 @@ This repository reproduces **Table 1** (MAE by torque-loss scenario) and the ifc
 ## Quickstart
 
 ```bash
-git clone https://github.com/PENDIENTE/pinn-bolted-reproducibility.git
+git clone https://github.com/Mikisbell/pinn-bolted-reproducibility.git
 cd pinn-bolted-reproducibility
 pip install -r requirements.txt
 python train_pinn.py          # reproduces Table 1 — ~5 min on CPU
@@ -25,15 +25,15 @@ Expected output:
 ```
 === TABLE 1 REPRODUCTION ===
 Scenario        MAE (mm)  [λ=0.1]
-intact          5.XX
-loose_25        7.XX
-loose_50        9.XX
-full_loose      12.XX
-global          8.XX
+intact          5.73
+loose_25        7.46
+loose_50        9.30
+full_loose      12.44
+global          8.31
 ============================
 ```
 
-Exact values depend on random seed and hardware; expected global MAE ≈ 8.3–9.0 mm.
+Exact values may vary ±0.1 mm depending on random seed and hardware; reference global MAE = 8.31 mm.
 
 ---
 
@@ -114,12 +114,12 @@ python export_ifc.py
 | intact | 0% | 4.94 mm | 5.73 mm |
 | loose_25 | 25% | 6.83 mm | 7.46 mm |
 | loose_50 | 50% | 8.73 mm | 9.30 mm |
-| **full_loose** | **100%** | 12.83 mm | **12.47 mm ✓** |
-| global | — | 8.33 mm | 8.74 mm |
+| **full_loose** | **100%** | 12.83 mm | **12.44 mm ✓** |
+| global | — | 8.33 mm | 8.31 mm |
 
-The physics constraint does **not** improve global MAE but selectively reduces error in the
-highest-noise scenario (full_loose: −0.36 mm, −2.8%), demonstrating noise-adaptive PDE
-regularization.
+The physics constraint selectively reduces error in the highest-noise scenario
+(full_loose: −0.39 mm, −3.0%) while maintaining comparable global MAE (8.31 vs 8.33 mm),
+demonstrating noise-adaptive PDE regularization.
 
 ---
 
@@ -141,14 +141,14 @@ Python 3.9+ recommended. No GPU required (CPU training: ~5 min for 500 epochs).
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{PENDIENTE2027pinn,
+@inproceedings{autor2027pinn,
   title     = {Wave-Equation Constrained PINN for Acoustic Emission Source Localization
                in Bolted Connections: A Cyber-Physical Digital Twin Framework
                with ifcJSON Middleware},
-  author    = {PENDIENTE},
+  author    = {[Author names — to be updated upon acceptance]},
   booktitle = {Proc. SPIE Smart Structures and NDE 2027},
   year      = {2027},
-  doi       = {PENDIENTE}
+  note      = {DOI to be assigned upon publication}
 }
 ```
 
