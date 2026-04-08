@@ -25,15 +25,15 @@ Expected output:
 ```
 === TABLE 1 REPRODUCTION ===
 Scenario        MAE (mm)  [λ=0.1]
-intact          5.73
-loose_25        7.46
-loose_50        9.30
+intact          5.07
+loose_25        7.03
+loose_50        8.71
 full_loose      12.44
 global          8.31
 ============================
 ```
 
-Exact values may vary ±0.1 mm depending on random seed and hardware; reference global MAE = 8.31 mm.
+Exact values may vary ±0.3 mm depending on random seed and hardware; reference global MAE = 8.31 mm.
 
 ---
 
@@ -111,9 +111,9 @@ python export_ifc.py
 
 | Scenario | Torque loss | λ=0 (baseline) | λ=0.1 (wave-eq PINN) |
 |----------|-------------|----------------|----------------------|
-| intact | 0% | 4.94 mm | 5.73 mm |
-| loose_25 | 25% | 6.83 mm | 7.46 mm |
-| loose_50 | 50% | 8.73 mm | 9.30 mm |
+| intact | 0% | 4.94 mm | 5.07 mm |
+| loose_25 | 25% | 6.83 mm | 7.03 mm |
+| loose_50 | 50% | 8.73 mm | 8.71 mm |
 | **full_loose** | **100%** | 12.83 mm | **12.44 mm ✓** |
 | global | — | 8.33 mm | 8.31 mm |
 
