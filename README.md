@@ -1,13 +1,15 @@
-# Wave-Equation Constrained PINN — Reproducibility Package
+# Physics-Informed Neural Network for AE Localization — Reproducibility Package
 
 Companion code for the paper:
 
-> **"Wave-Equation Constrained PINN for Acoustic Emission Source Localization in Bolted
-> Connections: A Cyber-Physical Digital Twin Framework with ifcJSON Middleware"**
-> SPIE Smart Structures and NDE 2027 — *under review*
+> **"Physics-Informed Neural Network for Acoustic Emission Localization in Bolted
+> Connections: Cyber-Physical Digital Twin with ifcJSON"**
+> Cruz Lujan, O. E.; Pillaca Gonzales, Y.; Marin Auqui, S. M.
+> Universidad Continental, Huancayo, Perú — 2026
 
-This repository reproduces **Table 1** (MAE by torque-loss scenario) and the ifcJSON export
-(Section 2.4) using three self-contained scripts and no external dependencies beyond PyTorch.
+This repository reproduces **Table 1** (MAE by torque-loss scenario), **Figure 2**
+(training convergence), and the ifcJSON export (Section 2.4) using self-contained
+scripts with no external dependencies beyond PyTorch.
 
 ---
 
@@ -44,12 +46,15 @@ pinn-bolted-reproducibility/
 ├── generate_ae_data.py          # Step 1 — synthetic AE arrivals (Section 2.1)
 ├── train_pinn.py                # Step 2 — PINN training → reproduces Table 1 (Section 2.2–2.3)
 ├── export_ifc.py                # Step 3 — ifcJSON export (Section 2.4)
+├── plot_figures.py              # Step 4 — reproduces Figures 2 and 3
 ├── requirements.txt
 ├── data/
 │   └── processed/
-│       └── ae_synthetic_arrivals.csv   # pre-generated (400 samples, 4 scenarios)
+│       ├── ae_synthetic_arrivals.csv       # pre-generated (400 samples, 4 scenarios)
+│       ├── training_history.csv            # 500 epochs: loss_total, loss_physics, val_mae_mm
+│       └── pinn_localization_results.csv   # 80 test predictions with error per scenario
 └── models/
-    └── pinn_localization.pt            # pre-trained weights (λ=0.1, 500 epochs)
+    └── pinn_localization.pt                # pre-trained weights (λ=0.1, 500 epochs)
 ```
 
 ---
@@ -79,6 +84,7 @@ python train_pinn.py
 # Reads:  data/processed/ae_synthetic_arrivals.csv
 # Writes: models/pinn_localization.pt
 #         data/processed/pinn_localization_results.csv
+#         data/processed/training_history.csv
 # Prints: Table 1 reproduction
 ```
 
@@ -87,7 +93,7 @@ Architecture (Section 2.2):
 - Activation: Tanh (hidden) + Sigmoid (output)
 - Loss: L = L_data + λ · L_physics
   - L_physics = MSE(t̂_i, t_measured), where t̂_i = dist(source_predicted, sensor_i) / c
-  - Loss normalization by initial values (Wu et al. 2023) prevents physics term from dominating
+  - Loss normalization by initial values prevents physics term from dominating
 
 To reproduce the ablation (Table 2):
 
@@ -104,6 +110,19 @@ python export_ifc.py
 # Writes: data/processed/ifc_export_sample.json
 # Schema: IfcStructuralPointAction (ORNL ifcJSON, Barbosa et al. 2023)
 ```
+
+### Step 4 — Reproduce figures (Figures 2 and 3)
+
+```bash
+python plot_figures.py
+# Reads:  data/processed/training_history.csv (Fig. 2)
+#         data/processed/pinn_localization_results.csv (Fig. 3)
+# Writes: figures/fig_02_training.png
+#         figures/fig_03_heatmap.png
+```
+
+- **Figure 2**: Training convergence — total loss + physics loss (left axis, log scale) and validation MAE (right axis). Best checkpoint at epoch 333.
+- **Figure 3**: AE source localization — predicted vs ground truth (80 test samples), colored by torque-loss scenario with error vectors.
 
 ---
 
@@ -141,14 +160,13 @@ Python 3.9+ recommended. No GPU required (CPU training: ~5 min for 500 epochs).
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{autor2027pinn,
-  title     = {Wave-Equation Constrained PINN for Acoustic Emission Source Localization
-               in Bolted Connections: A Cyber-Physical Digital Twin Framework
-               with ifcJSON Middleware},
-  author    = {[Author names — to be updated upon acceptance]},
-  booktitle = {Proc. SPIE Smart Structures and NDE 2027},
-  year      = {2027},
-  note      = {DOI to be assigned upon publication}
+@inproceedings{cruzlujan2026pinn,
+  title     = {Physics-Informed Neural Network for Acoustic Emission Localization
+               in Bolted Connections: Cyber-Physical Digital Twin with ifcJSON},
+  author    = {Cruz Lujan, Oliver Edison and Pillaca Gonzales, Yimy
+               and Marin Auqui, Sayuri Madeleine},
+  institution = {Universidad Continental, Huancayo, Per\'{u}},
+  year      = {2026}
 }
 ```
 
